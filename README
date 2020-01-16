@@ -1,5 +1,11 @@
 1. sudo update-alternatives --config java  
-        chose the JDK11
+        chose the JDK11         
+        (
+           sudo apt-get install openjdk-11-jdk
+           java -version
+           sudo update-java-alternatives –list
+           sudo update-alternatives --config java 
+        )
 
 2. Clone the source if you haven't done so. git clone https://github.com/Kindrat/cassandra-client.git
     <1> Go to the directory: cd cassandra-client
